@@ -1,0 +1,17 @@
+{
+  "name": "migraine-calendar/backend",
+  "description": "Migraine calendar backend (PHP JSON API)",
+  "type": "project",
+  "require": {
+    "php": ">=8.2",
+    "ext-pdo": "*",
+    "ext-json": "*",
+    "vlucas/phpdotenv": "^5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
+
